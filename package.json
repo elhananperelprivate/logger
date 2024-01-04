@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run host:serve:development --devRemotes=remote1"
+    "start": "nx run host:serve:development --devRemotes=remote1,remote2"
   },
   "private": true,
   "dependencies": {

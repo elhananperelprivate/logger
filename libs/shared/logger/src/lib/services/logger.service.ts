@@ -31,7 +31,7 @@ export class LoggerService {
   }
 
   log(message: string, stackTrace?: string): void {
-    if (this.isProduction) {
+    if (!this.isProduction) {
       const logEntry: LogEntry = {
         message,
         stackTrace: stackTrace || '',
