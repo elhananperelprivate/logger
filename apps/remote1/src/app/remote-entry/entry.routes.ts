@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { RemoteEntryComponent } from './entry.component';
+import { SimulateErrorComponent } from '../components/simulate-error/simulate-error.component';
 
 export const remoteRoutes: Route[] = [
-  { path: '', component: RemoteEntryComponent },
+  { path: '', component: SimulateErrorComponent },
 ];
